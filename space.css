@@ -1,0 +1,208 @@
+@font-face {
+  font-family: 'Monument Extended';
+  src: url('MonumentExtended-Regular.woff2') format('woff2'),
+      url('MonumentExtended-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*MOBILE*/
+
+body {
+  font-family:'Monument Extended';
+  background-color: rgb(0, 0, 0);
+  color: rgb(221, 221, 221);
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
+  max-width: 800px;
+}
+
+.copy {
+font-family: 'Courier New', Courier, monospace;
+max-width: 600px;
+margin: auto;
+padding-right: 5px;
+padding-left: 5px;
+}
+
+blockquote {
+font-family:'Monument Extended';
+}
+
+.red {
+color:rgb(235, 142, 54);
+}
+
+.blue {
+color:rgb(11, 14, 218);
+}
+
+/*STAR https://css-tricks.com/the-shapes-of-css/*/
+#star-five {
+  margin: 50px 0;
+  position: absolute;
+  display: block;
+  color: yellow;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid yellow;
+  border-left: 100px solid transparent;
+}
+#star-five:before {
+  border-bottom: 80px solid yellow;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -45px;
+  left: -65px;
+  display: block;
+  content: '';
+  transform: rotate(-35deg);
+}
+#star-five:after {
+  position: absolute;
+  display: block;
+  color: black;
+  top: 3px;
+  left: -105px;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid yellow;
+  border-left: 100px solid transparent;
+  transform: rotate(-70deg);
+  content: '';
+}
+
+
+/*PHOTO OF ALISHA PIMK*/
+.alisha {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 50px;  
+  filter: drop-shadow(20px 10px 20px #dd44af);
+}
+
+
+/*links*/
+
+.links {
+  position: relative;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+a:active {
+  color: rgb(252, 145, 234)
+}
+.muppets {
+  font-family:'Courier New', Courier, monospace;
+  font-size: .8em;
+  color: black;
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+  border-color: rgb(208, 228, 182);
+  border-style: outset;
+  padding-right: 2px;
+  padding-left: 2px;
+}
+.space {
+  font-family:'Courier New', Courier, monospace;
+  font-size: .8em;
+  color: black;
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+  border-color: rgb(208, 228, 182);
+  border-style: outset;
+  padding-right: 2px;
+  padding-left: 2px;
+}
+.homeblack {
+  font-family:'Courier New', Courier, monospace;
+  font-size: .8em;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+  border-color: rgb(43, 43, 43);
+  border-style: outset;
+  padding-right: 2px;
+  padding-left: 2px;
+}
+.dance {
+  font-family:'Courier New', Courier, monospace;
+  font-size: .8em;
+  color: black;
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+  border-color: rgb(208, 228, 182);
+  border-style: outset;
+  padding-right: 2px;
+  padding-left: 2px;
+}
+.ambition {
+  font-family:'Courier New', Courier, monospace;
+  font-size: .8em;
+  color: black;
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+  border-color: rgb(208, 228, 182);
+  border-style: outset;
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+/*FLEXBOX MUPPETS*/
+
+.dropshadow {
+filter: drop-shadow(10px 10px 20px #74737379);
+}
+
+.container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: auto;
+}
+
+.box {
+font-family: 'Courier New', Courier, monospace;
+padding: 2rem;
+width: 500px;
+color:rgb(11, 14, 218);
+}
+
+.spaceimageone {
+  transform: rotate(-20deg);
+  position:relative;
+  margin-top: -200px;
+}
+
+.chair {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  transform: rotate(-20deg);
+}
+
+.jetsons {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
